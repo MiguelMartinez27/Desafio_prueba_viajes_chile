@@ -1,0 +1,82 @@
+html {
+  scroll-behavior: smooth;
+}
+
+hr {
+  color: #ffffff;
+  opacity: 0.5;
+}
+
+
+/*FUENTES*/
+.raleway-light {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.raleway-regular {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/*CLASES*/
+.navbar {
+  z-index: 100;
+}
+
+#destacados .card:nth-child(2) .card-img-top {
+  height: 54%;
+}
+
+.custom-tooltip {
+  background: skyblue;
+}
+
+/*MEDIA QUERIES*/
+
+@media screen and (min-width: 1200px) {
+  .navbar img{
+    width: 15%!important;
+  }
+}
+
+@media screen and (min-width: 999px) {
+  .navbar img{
+    width: 19%!important;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .navbar {
+    margin-bottom: -125px;
+    background: none !important;
+  }
+
+  .navbar img{
+    width: 25%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .card {
+    width: 80%;
+  }
+
+  .navbar img{
+    width: 15%;
+  }
+}
+
+@media screen and (min-width: 996px) {
+  #destacados .card:nth-child(1) {
+    margin-right: 0.5em !important;
+  }
+
+  #destacados .card:nth-child(4) {
+    margin-left: 0.5em !important;
+  }
+}
